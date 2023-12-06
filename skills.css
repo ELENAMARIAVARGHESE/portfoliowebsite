@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image:url(images/background.png);
+
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity:0.8;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .skill {
+    margin-bottom: 20px;
+  }
+  
+  .skill h2 {
+    margin-bottom: 5px;
+  }
+  .progress {
+    height: 100%;
+    background-color: #4caf50; 
+    transition: width 1s ease-in-out;
+  }
+  .progress-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    height: 20px;
+    overflow: hidden;
+    width: 0;
+    height: 20px;
+    background-color: #c5cdd3;
+    animation: progressBar 2s ease-out forwards;
+  }
+  
+
+footer {
+    background-color: #f2f2f2; 
+    padding: 20px 0;
+    text-align: center; 
+  }
+  
+  .contact-details {
+    color: #333;
+    font-size: 16px; 
+  }
+  
+  .contact-details p {
+    margin-bottom: 8px;
+  }
+  
+  @keyframes progressBar {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%; 
+    }
+  }
+  

@@ -1,0 +1,95 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(./images/background.png);
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    opacity:0.8;
+    
+    
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 5px;
+    font-size: 36px;
+    color: #333;
+  }
+  
+  h4 {
+    font-weight: normal;
+    color: #777;
+  }
+  
+  aside {
+    flex-basis: 45%;
+  }
+  
+  .image-container {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.3s ease; 
+  }
+  
+  img:hover {
+    transform: scale(1.05); 
+  }
+  .objective {
+    margin-left: 50px; 
+  }
+  
+  .animated-text {
+    opacity: 0;
+    animation: fadeInText 1s forwards;
+    animation-delay: 0.5s; 
+  }
+
+footer {
+    background-color: #f2f2f2; 
+    padding: 20px 0; 
+    text-align: center;
+  }
+  
+  .contact-details {
+    color: #333; 
+    font-size: 16px;
+  }
+  
+  .contact-details p {
+    margin-bottom: 8px; 
+  }
+  
+  
+  @keyframes fadeInText {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
