@@ -26,8 +26,14 @@ body {
   }
   
   .skill h2 {
-    margin-bottom: 5px;
+    
   }
+  .details{
+    display:flex;
+    margin-bottom: 5px;
+    justify-content: space-between;
+  }
+
   .progress {
     height: 100%;
     background-color: #4caf50; 
